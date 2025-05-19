@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Padaria</title>
+</head>
+<body>
+    <script>
+        var precopao = Number(0.12)
+        var precobroa= Number(1.50)
+
+        var paovendido= Number(prompt("Quantos pães foram vendidos? "))
+        var broasvendida= Number(prompt("Quantos broas foram vendidos? "))
+
+        var valorarrecadadopao= paovendido * precopao
+        var valorarrecadadobroa= broasvendida * precobroa
+
+        var valortotalarrecadado= valorarrecadadopao + valorarrecadadobroa
+
+        var poupanca = valortotalarrecadado * 10 / 100
+
+        alert("Você arregadou " + valortotalarrecadado + " com pães e broas.")
+        alert("Você deve guarda na poupança " + poupanca)
+
+    </script>
+</body>
+</html>
