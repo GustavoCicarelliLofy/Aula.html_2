@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Calcular cubo</title>
+</head>
+<body>
+    <label for="Comprimento">Comprimento
+        <input type="text" name="Comprimeto" id="Comprimento">
+    </label>
+    <label for="Largura">Largura
+        <input type="text" name="Largura" id="Largura">
+    </label>
+    <label for="Altura">Altura
+        <input type="text" name="Altura" id="Altura">
+    </label>
+    <button type="button" onclick="calcularRetangulo()">Acionar função</button>
+    <script>
+        function calcularRetangula(){
+            let larg = document.getElementById("Largura").value 
+            let comp = document.getElementById("Comprimento").value 
+            let alt = document.getElementById("Altura").value 
+            var area = (larg*comp)
+            alert("Area: "+ area)
+        }
+        function obterElementos(){
+
+        }
+    </script>
+</body>
+</html>
