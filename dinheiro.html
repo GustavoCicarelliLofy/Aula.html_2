@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seu salario, pobre</title>
+</head>
+<body>
+    <script>
+        var salario= Number(prompt("Coloque seu salario aqui, pobre: "))
+        var porcentagem= Number(15)
+        var imposto= Number(8)
+
+        var salarioaumentado= salario+(salario*porcentagem/100)
+        var salarioimposto= salarioaumentado-(salarioaumentado*imposto/100)
+
+
+        alert("Seu salario aumentou em: " +salarioaumentado)
+        alert("Desconto do imposto: "+salarioimposto)
+
+
+    </script>
+</body>
+</html>
